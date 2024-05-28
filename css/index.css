@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -41,7 +41,7 @@ body {
     margin-right: 1%;
 }
 
-.leftOptions {
+.left_options {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,7 +55,7 @@ body {
     justify-content: center;
 }
 
-.menuOptions {
+.menu_options {
     display: flex;
     margin-top: 1%;
     justify-content:center;
@@ -63,11 +63,11 @@ body {
     flex-flow: row wrap;
 }
 
-.menuOptions> a {
+.menu_options> a {
     margin: 5px 10px;
 }
 
-.rightOptions {
+.right_options {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -101,4 +101,85 @@ body {
     background-color: #1E1F27;
     border-radius: 20px;
     margin-left: 5%;
+}
+
+.main_screen {
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.main_content {
+    display: flex;
+    width: 90%;
+    height: 100%;
+}
+
+.info_block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.text_block > h1 {
+    color: #1E1F27;
+    font-size: 2.7rem;
+}
+
+.text_block > p {
+    color: #37383F;
+    font-size: 1.5rem;
+}
+
+.cta_block {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.text_content {
+    font-size: 1.9rem;
+    color: #1E1F27;
+    text-align: center;
+}
+
+.group_of_buttons {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-donate-main {
+    width: 10%;
+    height: 10%;
+    font-size: 1.2rem;
+    background-color:#FF3D9A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+}
+
+#btn-adopt {
+    width: 10%;
+    height: 10%;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    color: #1E1F27;
+    border: 2px solid #1E1F27;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
 }
