@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/scripts.js" defer></script>
     <title>Rescue Center</title>
 </head>
 <body>
@@ -48,5 +49,46 @@
       </section>
     </div>
   </main>
+  <section class="stats_block">
+    <div class="main_content_stats">
+      <div class="text_information">
+        <h2>With your help, we acomplished these goals</h2>
+        <div class="stats">
+            <div class="animais_rescued">
+              <h3>1400</h3>
+              <p>Animals Rescued</p>
+            </div>
+              <div class="raised">
+                <h3>$1.4 Million</h3>
+                <p>Raised</p>
+              </div>
+                <div class="tails_found_a_home">
+                  <h3>940</h3>
+                  <p>Tails Found a Home</p>
+                </div>
+          </div>
+      </div>
+      <div class="carousel_mobile">
+        <div class="carousel_photos">
+            <div id="arrow_left" onclick="prev()"><img src="../imgs/Arrow_Left.png" alt=""></div>
+            <div class="photo">
+                <img src="../imgs/img_bob.png" alt="" class="slider on">
+                <img src="../imgs/img_clorinde.png" alt="" class="slider">
+                <img src="../imgs/img_roney.png" alt="" class="slider">
+                <img src="../imgs/img_flocks.png" alt="" class="slider">
+                <img src="../imgs/img_mary.png" alt="" class="slider">
+            </div>
+            <div id="arrow_right" onclick="next()"><img src="../imgs/Arrow_Right.png" alt=""></div>
+        </div>
+          <div class="dots">
+            <div class="img_dot btn-on"></div>
+            <div class="img_dot"></div>
+            <div class="img_dot"></div>
+            <div class="img_dot"></div>
+            <div class="img_dot"></div>
+        </div>
+      </div>
+    <div class="donations_block"></div>
+  </section>
 </body>
 </html>
