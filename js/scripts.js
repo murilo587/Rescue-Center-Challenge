@@ -1,4 +1,4 @@
-//Carousel
+//Carousel - first
 
 const slider = document.querySelectorAll('.slider')
 const btnPrev = document.getElementById('#arrow_left')
