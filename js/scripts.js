@@ -29,6 +29,9 @@ function changeNextDot() {
     if(currentSlide === slider.length - 1) {
         currentSlide = 0
         currentDot = 0
+        changePrevDot()
+        changeNextDot()
+       
     } else {
         currentSlide++
         currentDot++
@@ -43,6 +46,8 @@ function prev() {
     if(currentSlide === 0) {
         currentSlide = slider.length - 1
         currentDot = dots.length - 1
+        changePrevDot()
+        changeNextDot()
     } else {
         currentSlide--
         currentDot--
