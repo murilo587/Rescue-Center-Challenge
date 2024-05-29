@@ -30,7 +30,7 @@ body {
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 .frame > a {
     margin: 10px 15px;
@@ -96,8 +96,8 @@ body {
 }
 
 #img-dog-cat {
-    width: 83%;
-    height: 75%;
+    width: 85%;
+    height: 80%;
 }
 
 .divider {
@@ -109,41 +109,37 @@ body {
     margin-right: 2%;
 }
 
-.dog_img {
-    margin-top: 5%;
-}
 .left_content_start {
     width: 40%;
     height: 90%;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    justify-content: space-around;
 }
 
 .left_content_start > h1 {
-    font-size: 4rem;
-    margin: 0;
+    font-size: 64px;
+    margin-top: 10%;
 }
 
 .left_content_start > h3 {
-    font-size: 2rem;
-    margin-top: 0%;
+    font-size: 32px;
+    margin-top: 20%;
     margin-bottom: 0%;
 }
 
 .left_content_start > p {
     margin-top: 8%;
-    font-size: 1.8rem;
+    font-size: 24px;
     color: #37383F;
 }
 
 .right_content_start {
     width: 50%;
-    height: 100%;
+    height: 90%;
     display: flex;
     justify-content: center;
-    justify-self: flex-start;
+    margin-bottom: 4%;
 }
 
 .main_content {
@@ -183,9 +179,9 @@ body {
 
 .group_of_buttons {
     display: flex;
+    margin-top: 7%;
     width: 100%;
     height: 10%;
-    margin-bottom: 10%;
     align-items: center;
     justify-content: space-between;
 }
@@ -239,7 +235,7 @@ body {
 }
 .main_content_stats > h2 {
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 56px;
     text-align: center;
     margin-top: 4%;
 }
@@ -284,13 +280,13 @@ body {
 }
 
 .animais_rescued > h3 {
-    font-size: 4rem;
+    font-size: 64px;
     color: #F8DB46;
     margin: 0;
 }
 
 .animais_rescued > p {
-    font-size: 2.1rem;
+    font-size: 32px;
     color: #ffffff;
     font-weight: bold;
     margin: 2% 0%;
@@ -305,13 +301,13 @@ body {
 }
 
 .raised > h3 {
-    font-size: 4rem;
+    font-size: 64px;
     color: #F8DB46;
     margin: 0;
 }
 
 .raised > p {
-    font-size: 2.1rem;
+    font-size: 32px;
     color: #ffffff;
     font-weight: bold;
     margin: 2% 0%;
@@ -326,13 +322,13 @@ body {
 }
 
 .tails_found_a_home > h3 {
-    font-size: 4rem;
+    font-size: 64px;
     color: #F8DB46;
     margin: 0;
 }
 
 .tails_found_a_home > p {
-    font-size: 2.1rem;
+    font-size: 32px;
     color: #ffffff;
     font-weight: bold;
     margin: 2% 0%;
@@ -365,13 +361,15 @@ body {
 
 .show {
     overflow: hidden;
-    width: 57%;
+    display: flex;
+    justify-content: center;
+    width: 800px;
     height: 50%;;
+
 }
 .slider {
-    position: relative;
     /* opacity: 0; */
-    width: 75%;
+    width: 20sh0px;
     height: 100%;
     transition: opacity 0.2s;
     margin-top: 0%;
@@ -412,6 +410,7 @@ body {
 }
 
 .main_content_donations {
+    margin-top: 7%;
     width: 90%;
     height: 90%;
 }
@@ -464,7 +463,7 @@ body {
 }
 
 .text_block_shelter > p {
-    font-size: 1.8rem;
+    font-size: 20px;
     color: #757575;
     margin-bottom: 20%;
     margin-top: 5%;
@@ -480,7 +479,7 @@ body {
 }
 
 .top_text_img > h {
-    font-size: 2.5rem;
+    font-size: 32px;
     font-weight: bold;
     color: #FFFFFF;
 }
@@ -701,3 +700,108 @@ body {
     font-weight: bold;
     justify-self: center;
 }
+
+.adopt_block {
+    width: 100vw;
+    height: 70vh;
+    background-color: #1E1F27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_adopt_block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left_content_adopt_block {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.left_content_adopt_block > img {
+    width: 90%;
+    height: 73%;
+}
+
+.center_content_adopt_block {
+    height: 100%;
+    width: 56%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+} 
+
+.center_content_adopt_block > h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 12%;
+    color: #FFFFFF;
+}
+
+.center_content_adopt_block > p {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 5%;
+    color: #FFFFFF;
+}
+
+#highlight {
+    color: #F8DB46;
+}
+
+.btn_adoptables {
+    width: 20%;
+    height: 50%;
+    border-radius: 32px;
+    background-color: #F8DB46;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.btn_apply_adopt {
+    width: 20%;
+    height: 50%;
+    border-radius: 32px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_content_adopt_block {
+    height: 100%;
+    width: 22%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.right_content_adopt_block > img {
+    width: 90%;
+    height: 73%;
+}
+
+.btns-adopt_block {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+
