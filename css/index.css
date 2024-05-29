@@ -10,18 +10,21 @@ body {
     height: 1000vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     font-size: 16px;
 }
 
 .menu {
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .frame {
-    width: 80%;
+    width: 90%;
     height: 90%;
     display: flex;
     align-items: center;
@@ -32,10 +35,6 @@ body {
 .frame > a {
     margin: 10px 15px;
 
-}
-.frame > img {
-    margin-left: 2% ;
-    margin-right: 1%;
 }
 
 .left_options {
@@ -66,50 +65,95 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-right:10%;
 }
 
 #btn-donate {
-    width: 46%;
-    height: 90%;
+    padding: 5% 20%;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border-radius: 40px;
+    margin-left: 10%;
 }
 
 #btn-donate> img {
-    width: 17%;
-    height: 40%;
+    width: 40%;
+    height: 30%;
+    margin-right: 10%;
 }
 
 #phone-number-icon {
     margin-right: 5%;
 }
 
-.divider {
-    height: 0.5vw;
-    background-color: #1E1F27;
-    border-radius: 20px;
-    margin-left: 5%;
+#phone-number {
+    text-wrap: nowrap;
+    margin-right: 10%;
 }
 
-.main_screen {
-    width: 100vw;
-    height: 110vh;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+#img-cat-dog {
+    width: 95%;
+    height: 80%;
 }
+
+.divider {
+    width: 82vw;
+    height: 0.3vh;
+    justify-content: center;
+    background-color: #1E1F27;
+    border-radius: 20px;
+    margin-right: 2%;
+}
+
 .dog_img {
     margin-top: 5%;
+}
+.left_content_start {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: space-around;
+}
+
+.left_content_start > h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.left_content_start > h3 {
+    font-size: 2rem;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.left_content_start > p {
+    margin-top: 8%;
+    font-size: 1.8rem;
+    color: #37383F;
+}
+
+.right_content_start {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-self: flex-start;
 }
 
 .main_content {
     display: flex;
-    width: 90%;
-    height: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 82vw;
+    height: 100vh;
+    margin-top: 8%;
 }
 
 .info_block {
@@ -136,7 +180,7 @@ body {
     height: 30%;
     margin-top: 10%;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     align-items: center;
 }
 
@@ -148,15 +192,16 @@ body {
 
 .group_of_buttons {
     display: flex;
-    width: 80%;
-    height: 60%;
-    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10%;
     align-items: center;
+    justify-content: space-between;
 }
 
 #btn-donate-main {
-    width: 50%;
-    height: 40%;
+    width: 35%;
+    height: 85%;
     font-size: 1.2rem;
     background-color:#FF3D9A;
     color: #FFFFFF;
@@ -167,9 +212,8 @@ body {
 }
 
 #btn-adopt {
-    width: 70%;
-    height: 40%;
-    margin-top: 10%;
+    width: 40%;
+    height: 85%;
     font-size: 1.2rem;
     color: #1E1F27;
     border: 2px solid #1E1F27;
@@ -178,24 +222,29 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+    margin-right: 19%;
 }
 
 .stats_block {
     background-color: #1E1F27;
     width: 100vw;
-    height: 260vh;
+    height: 150vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+.main_content_stats > h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    text-align: center;
+}
 
 .main_content_stats {
     width: 90%;
-    height: 100%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80%;
 }
 
 .text_information {
@@ -216,19 +265,18 @@ body {
 
 .stats {
     width: 100%;
-    height: 28%;
+    height: 35%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
 }
 
 .animais_rescued {
     width: 100%;
-    height: 15%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40%;
 }
 
 .animais_rescued > h3 {
@@ -246,11 +294,10 @@ body {
 
 .raised {
     width: 100%;
-    height: 15%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40%;
 }
 
 .raised > h3 {
@@ -268,11 +315,10 @@ body {
 
 .tails_found_a_home {
     width: 100%;
-    height: 15%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 40%;
 }
 
 .tails_found_a_home > h3 {
@@ -290,7 +336,7 @@ body {
 
 .carousel_mobile {
     width: 100%;
-    height: 20%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -302,23 +348,30 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 .photo {
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 13.1%;
 }
 
+.show {
+    overflow: hidden;
+    width: 75%;
+    height: 50%;;
+}
 .slider {
-    position: absolute;
-    opacity: 0;
-    width: 70%;
-    height: 60%;
+    position: relative;
+    /* opacity: 0; */
+    width: 85%;
+    height: 100%;
     transition: opacity 0.2s;
     margin-top: 0%;
+    margin: 0% 1%;
 }
 
 .on {
