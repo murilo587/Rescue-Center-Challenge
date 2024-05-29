@@ -70,7 +70,7 @@ body {
 }
 
 #btn-donate {
-    padding: 5% 20%;
+    padding: 10% 25%;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
@@ -83,7 +83,7 @@ body {
 #btn-donate> img {
     width: 40%;
     height: 30%;
-    margin-right: 10%;
+    margin-right: 13%;
 }
 
 #phone-number-icon {
@@ -194,12 +194,19 @@ body {
     width: 35%;
     height: 85%;
     font-size: 1.2rem;
+    font-weight: bold;
     background-color:#FF3D9A;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+}
+
+#btn-donate-main> img {
+    width: 11%;
+    height: 34%;
+    margin-right: 5%;
 }
 
 #btn-adopt {
@@ -215,6 +222,11 @@ body {
     border-radius: 40px;
     margin-right: 19%;
 }
+
+#btn-adopt> img {
+    margin-right: 4%;
+}
+
 
 .stats_block {
     background-color: #1E1F27;
