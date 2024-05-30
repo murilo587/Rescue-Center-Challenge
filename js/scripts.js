@@ -56,3 +56,18 @@ function prev() {
     }
     showSlider()
 }
+
+//Adopt Modal
+
+let btn_modal_adopt = document.querySelector('#btn-adopt')
+let modal_adopt = document.querySelector('#modal_adopt')
+let cancel_modal = document.querySelector('#btn-cancel-modal')
+
+
+btn_modal_adopt.addEventListener('click', () => {
+    modal_adopt.showModal()
+})
+
+cancel_modal.addEventListener('click', () => {
+    modal_adopt.close()
+})
