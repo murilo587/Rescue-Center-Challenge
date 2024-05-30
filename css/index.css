@@ -16,7 +16,7 @@ body {
 
 .menu {
     width: 100vw;
-    height: 20vh;
+    height: 16vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -662,6 +662,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #000000;
     font-weight: bold;
     justify-self: center;
 }
@@ -765,6 +767,8 @@ body {
     background-color: #F8DB46;
     font-size: 20px;
     font-weight: 700;
+    text-decoration: none;
+    color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
