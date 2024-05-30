@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100vw;
-    height: 1000vh;
+    height: 700vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -882,4 +882,162 @@ body {
     font-size: 20px;
     font-weight: 700;
     margin-left: 2%;
+}
+
+footer {
+    width: 100vw;
+    height: 80vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_footer {
+    width: 90%;
+    height: 90%;
+    background-color: #37383F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_content_footer {
+    width: 100%;
+    height: 70%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_name {
+    margin-top: 2%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_name > h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #1E1F27;
+}
+
+.logo_name > p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1F27;
+}
+
+#logo_2 {
+    width: 30%;
+}
+
+#pink_heart {
+    width: 12%;
+}
+
+.links {
+    margin-top: 2%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links > p {
+    margin: 4% 0%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1F27;
+}
+.links_2 {
+    margin-top: 2%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links_2 > p {
+    margin: 4% 0%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1F27;
+}
+
+.contact {
+    margin-top: 2%;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.shell_content {
+    display: flex;
+}
+
+.left_content_contact {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_content_contact > img {
+    margin: 69% 0%;
+    width: 65%;
+}
+
+.right_content_contact {
+    width: 100%;
+    height: 100%;
+}
+
+.right_content_contact > p {
+    margin: 8% 0%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1F27;
+}
+
+.bottom_content_contact{
+    width: 100%;
+    height: 10%;
+}
+
+.bottom_content_contact > img {
+    width: 10%;         
+    margin-left: 0.2%;
+}
+
+.bottom_content_footer {
+    width: 100%;
+    height: 30%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bottom_content_footer > p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1E1F27;
+    align-self: center;
+}
+
+#highlight_2 {
+    color: #FF3D9A;
+}
+
+.divider_2 {
+    width: 80%;
+    height: 0.3vh;
+    background-color: #1E1F27;
+    border-radius: 20px; 
 }
