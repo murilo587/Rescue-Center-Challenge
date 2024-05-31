@@ -66,8 +66,12 @@ let cancel_modal = document.querySelector('#btn-cancel-modal')
 
 btn_modal_adopt.addEventListener('click', () => {
     modal_adopt.showModal()
+    //modal_adopt.style.display = 'flex'
+    modal_adopt.classList.add('translate')
 })
 
 cancel_modal.addEventListener('click', () => {
     modal_adopt.close()
+    //modal_adopt.style.display = 'none'
+    modal_adopt.classList.remove('translate')
 })

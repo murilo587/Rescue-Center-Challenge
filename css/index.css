@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
     font-size: 16px;
 }
 
@@ -1055,6 +1056,12 @@ footer {
     justify-content: center;
     border: none;
     align-items: center;
+    transform: translateX(110vw);
+    transition: all 1s ease-in-out;
+}
+
+#modal_adopt.translate {
+    transform: translateX(0);
 }
 
 #modal_adopt::backdrop {
@@ -1121,7 +1128,7 @@ footer {
     margin-right: 8.33%;
 }
 
-#required {
+#form_adopt_modal#required {
     color: #3F96FC;
 }
 
@@ -1189,6 +1196,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #btn-cancel-modal > p {
