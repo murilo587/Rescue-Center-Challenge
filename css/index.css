@@ -1118,7 +1118,27 @@ footer {
     border: 1px solid #3F96FC;
 }
 
-#birth_date {
+#birth_date_day {
+    font-size: 16px;
+    font-weight: 500;
+    width: 25%;
+    height: 18%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+    margin-right: 8.33%;
+}
+
+#birth_date_month {
+    font-size: 16px;
+    font-weight: 500;
+    width: 25%;
+    height: 18%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+    margin-right: 8.33%;
+}
+
+#birth_date_year {
     font-size: 16px;
     font-weight: 500;
     width: 25%;
@@ -1172,6 +1192,7 @@ footer {
     background-color: #04C27F;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
 }
 

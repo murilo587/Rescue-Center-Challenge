@@ -75,3 +75,33 @@ cancel_modal.addEventListener('click', () => {
     //modal_adopt.style.display = 'none'
     modal_adopt.classList.remove('translate')
 })
+
+
+//Form adopt verification
+
+let btnAdopt = document.querySelector('#btn-adopt-modal')
+let email = document.querySelector('#email_adopt')
+let names = document.querySelector('#name_adopt')
+let birthDateDay = document.querySelector('#birth_date_day')
+let birthDateMonth = document.querySelector('#birth_date_day') 
+let birthDateYear = document.querySelector('#birth_date_day') 
+let checkBtn = document.querySelector('#check-01')
+
+//regex to verifications
+regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+regexName = /^[a-zA-Z\s]+$/
+regexDay = /^(?:[1-9]|[12]\d|3[01])$/
+regexMonth = /^(?:[1-9]|1[012])$/
+regexYear = /^(?:\d{1,3}|1\d{3}|20[0-1]\d|202[0-4])$/
+
+btnAdopt.addEventListener('click', () => {
+    if (email.value !== '' && names.value !== '' && birthDateDay.value !== '' && birthDateMonth.value !== '' && birthDateYear.value !== '' && checkBtn.checked == true) {
+        if(regexEmail.test(email.value) == true && regexName.test(names.value) == true && regexDay.test(birthDateDay.value) == true && regexMonth.test(birthDateMonth.value) == true && regexYear.test(birthDateYear.value) == true){
+            window.location.href = 'success.html'
+        }else {
+            alert("The form has fields with incorrect values, try again!")
+        }
+    }else {
+        alert("the form has empty fields, try again!")
+    }
+})
