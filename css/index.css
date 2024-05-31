@@ -98,11 +98,11 @@ body {
 
 #img-dog-cat {
     width: 85%;
-    height: 84%;
+    height: 90%;
 }
 
 .divider {
-    width: 82vw;
+    width: 70%;
     height: 0.3vh;
     justify-content: center;
     background-color: #1E1F27;
@@ -145,12 +145,21 @@ body {
 
 .main_content {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 77vh;
+    margin-top: 8%;
+}
+
+.main_content_main {
+    width: 90%;
+    height: 100%;
+    margin-bottom: 10%;
+    display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 82vw;
-    height: 100vh;
-    margin-top: 8%;
 }
 
 .info_block {
@@ -547,18 +556,34 @@ body {
 }
 
 .left_content_adopt_info > img {
-    width: 75%;
+    width: 58%;
     height: 78%;
     margin-top: 8%;
 }
 
 .right_content_adopt_info {
-    width: 50%;
+    width: 30%;
     height: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 4.5%;
 }
+
+.right_content_adopt_info > a {
+    margin-left: 5%;
+    width: 40%;
+    height: 8%;
+    border-radius: 32px;
+    background-color: #1E1F27;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
 
 .right_content_adopt_info > h3 {
     font-size: 2.3rem;
@@ -786,6 +811,7 @@ body {
     font-weight: 700;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
 }
 
@@ -812,7 +838,7 @@ body {
 
 .subscription_block {
     width: 100vw;
-    height: 55vh;
+    height: 57vh;
     background-color: #5758F1;
     display: flex;
     justify-content: center;
@@ -821,7 +847,7 @@ body {
 
 .main_content_subscription_block {
     width: 90%;
-    height: 90%;
+    height: 100%;
     background-color: #5758F1;
     display: flex;
     flex-direction: column;
@@ -830,7 +856,7 @@ body {
 
 .top_content_subscription_block {
     width: 40%;
-    height: 50%;
+    height: 60%;
     background-color: #5758F1;
     display: flex;
     flex-direction: column;

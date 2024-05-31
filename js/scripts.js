@@ -60,11 +60,25 @@ function prev() {
 //Adopt Modal
 
 let btn_modal_adopt = document.querySelector('#btn-adopt')
+let btn_modal_adopt2 = document.querySelector('.btn_apply_adopt')
+let btn_modal_adopt3 = document.querySelector('.btn_apply_adopt_adopt_info')
 let modal_adopt = document.querySelector('#modal_adopt')
 let cancel_modal = document.querySelector('#btn-cancel-modal')
 
 
 btn_modal_adopt.addEventListener('click', () => {
+    modal_adopt.showModal()
+    //modal_adopt.style.display = 'flex'
+    modal_adopt.classList.add('translate')
+})
+
+btn_modal_adopt2.addEventListener('click', () => {
+    modal_adopt.showModal()
+    //modal_adopt.style.display = 'flex'
+    modal_adopt.classList.add('translate')
+})
+
+btn_modal_adopt3.addEventListener('click', () => {
     modal_adopt.showModal()
     //modal_adopt.style.display = 'flex'
     modal_adopt.classList.add('translate')
