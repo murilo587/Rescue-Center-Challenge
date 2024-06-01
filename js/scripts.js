@@ -68,26 +68,44 @@ let cancel_modal = document.querySelector('#btn-cancel-modal')
 
 btn_modal_adopt.addEventListener('click', () => {
     modal_adopt.showModal()
-    //modal_adopt.style.display = 'flex'
     modal_adopt.classList.add('translate')
 })
 
 btn_modal_adopt2.addEventListener('click', () => {
     modal_adopt.showModal()
-    //modal_adopt.style.display = 'flex'
     modal_adopt.classList.add('translate')
 })
 
 btn_modal_adopt3.addEventListener('click', () => {
     modal_adopt.showModal()
-    //modal_adopt.style.display = 'flex'
     modal_adopt.classList.add('translate')
 })
 
 cancel_modal.addEventListener('click', () => {
     modal_adopt.close()
-    //modal_adopt.style.display = 'none'
     modal_adopt.classList.remove('translate')
+})
+
+//Donate Modal
+
+let btn_donate_header = document.querySelector('#btn-donate')
+let btn_modal_donate_main = document.querySelector('#btn-donate-main')
+let modal_donate = document.querySelector('#modal_donate')
+let cancel_modal_donate = document.querySelector('#btn-cancel-modal-donate')
+
+btn_donate_header.addEventListener('click', () => {
+    modal_donate.showModal()
+    modal_donate.classList.add('translate')
+})
+
+btn_modal_donate_main.addEventListener('click', () => {
+    modal_donate.showModal()
+    modal_donate.classList.add('translate')
+})
+
+cancel_modal_donate.addEventListener('click', () => {
+    modal_donate.close()
+    modal_donate.classList.remove('translate')
 })
 
 
@@ -119,3 +137,65 @@ btnAdopt.addEventListener('click', () => {
         alert("the form has empty fields, try again!")
     }
 })
+
+
+//Form donate verification
+
+let btnDonate = document.querySelector('#btn-donate-modal')
+let email2 = document.querySelector('#email_donate')
+let valueDonate = document.querySelector('#value_donate')
+let checkPix = document.querySelector('#pix')
+let checkCreditCard = document.querySelector('#credit_card')
+let checkOthers = document.querySelector('#others')
+let divCheckPix = document.querySelector('.div_pix')
+let divCheckCreditCard = document.querySelector('.div_credit_card')
+let divCheckOthers = document.querySelector('.div_others')
+
+// Verifications of the payment mthod
+
+checkPix.addEventListener('click', () => {
+    checkCreditCard.checked = false
+    checkOthers.checked = false
+    divCheckPix.style.backgroundColor = '#3F96FC'
+    divCheckCreditCard.style.backgroundColor = '#ffffff'
+    divCheckOthers.style.backgroundColor = '#ffffff'
+})
+
+checkCreditCard.addEventListener('click', () => {
+    checkPix.checked = false
+    checkOthers.checked = false
+    divCheckCreditCard.style.backgroundColor = '#3F96FC'
+    divCheckPix.style.backgroundColor = '#ffffff'
+    divCheckOthers.style.backgroundColor = '#ffffff'
+})
+
+checkOthers.addEventListener('click', () => {
+    checkCreditCard.checked = false
+    checkPix.checked = false
+    divCheckOthers.style.backgroundColor = '#3F96FC'
+    divCheckCreditCard.style.backgroundColor = '#ffffff'
+    divCheckPix.style.backgroundColor = '#ffffff'
+})
+
+//regex to verifications
+regexEmail2 = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+regexValue = /^[1-9]\d*$/
+
+
+btnDonate.addEventListener('click', () => {
+    if (email2.value !== '' && valueDonate.value !== '') {
+        if(checkPix.checked == true || checkCreditCard.checked == true || checkOthers.checked == true){
+            if(regexEmail2.test(email2.value) == true && regexValue.test(valueDonate.value) == true){
+                window.location.href = 'success.html'
+            }else {
+                alert("The form has fields with incorrect values, try again!")
+            }
+        }else {
+            alert("the form has empty fields, try again!")
+        }
+    }else {
+        alert("the form has empty fields, try again!")
+    }
+})
+
+

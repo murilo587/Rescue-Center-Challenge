@@ -71,10 +71,11 @@ body {
 }
 
 #btn-donate {
-    padding: 10% 25%;
+    padding: 7% 24%;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -205,6 +206,7 @@ body {
     color: #FFFFFF;
     display: flex;
     justify-content: center;
+    cursor: pointer;
     align-items: center;
     border-radius: 40px;
 }
@@ -1113,6 +1115,7 @@ footer {
 .top_content_modal_adopt > h1 {
     font-size: 48px;
     font-weight: 700;
+    color: #1E1F27;
     margin: 0;
     margin-bottom: 2%;
 }
@@ -1120,6 +1123,7 @@ footer {
 .top_content_modal_adopt > p {
     font-size: 18px;
     font-weight: 500;
+    color: #1E1F27;
     margin: 0;
 }
 
@@ -1260,4 +1264,218 @@ footer {
     font-size: 12px;
     font-weight: 500;
     margin-left: 2%;
+}
+
+#modal_donate {
+    width: 25%;
+    height: 80%;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    transform: translateX(110vw);
+    transition: all 1s ease-in-out;
+}
+
+#modal_donate.translate {
+    transform: translateX(0);
+}
+
+#modal_donate::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main_content_modal_donate {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_content_modal_donate {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_content_modal_donate > h1 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #1E1F27;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.top_content_modal_donate > p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.center_content_modal_donate {
+    width: 100%;
+    height: 50%;
+    justify-self: center;
+}
+
+.center_content_modal_donate > p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FF3D9A;
+}
+
+.center_content_modal_donate > input {
+    font-size: 16px;
+    font-weight: 500;
+    width: 95%;
+    height: 15%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+}
+
+#methods {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 26%;
+}
+
+#pix {
+    font-size: 16px;
+    font-weight: 500;
+    width: 17%;
+    height: 50%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+}
+
+#credit_card {
+    font-size: 16px;
+    font-weight: 500;
+    width: 17%;
+    height: 50%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+}
+
+#others {
+    font-size: 16px;
+    font-weight: 500;
+    width: 17%;
+    height: 50%;
+    border-radius: 8px;
+    border: 1px solid #3F96FC;
+}
+
+.div_others {
+    width: 32%;
+    height: 80%;
+    border: 1px solid #3F96FC;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 0% 1%;
+}
+
+.div_pix {
+    width: 32%;
+    height: 80%;
+    border: 1px solid #3F96FC;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 0% 1%;
+}
+
+.div_credit_card {
+    width: 32%;
+    height: 80%;
+    border: 1px solid #3F96FC;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+    margin: 0% 1%;
+}
+
+#required {
+    color: #3F96FC;
+}
+
+.bottom_content_modal_donate {
+    width: 100%;
+    height: 40%;
+}
+
+#important {
+    color: #FF3D9A;
+}
+
+.buttons_modal_donate {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons_modal_donate > a {
+    width: 50%;
+    height: 20%;
+}
+
+#btn-donate-modal {
+    width: 50%;
+    height: 37%;
+    border-radius: 32px;
+    background-color: #FF3D9A;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+#btn-donate-modal > p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#btn-donate-modal > img {
+   width: 10%;
+   height: 30%;
+   margin-right: 4%;
+}
+
+#btn-cancel-modal-donate {
+    margin-top: 3%;
+    width: 38%;
+    height: 37%;
+    border-radius: 32px;
+    background-color: #37383F;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#btn-cancel-modal-donate > p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#btn-cancel-modal-adopt > img {
+   margin-right: 2%;
 }

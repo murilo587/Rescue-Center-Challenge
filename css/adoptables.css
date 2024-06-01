@@ -141,8 +141,14 @@ body {
     align-items: center;
 }
 
+#btn-back {
+    text-decoration: none;
+}
+
+
 #btn-back > p {
     font-size: 20px;
+    text-decoration: none;
     font-weight: 700;
     color: #ffffff;
 }
