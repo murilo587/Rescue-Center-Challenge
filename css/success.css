@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-bold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -31,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-weight: bold;
+    font-family: Inter-bold;
     font-size: 20px;
 }
 .frame > a {
@@ -72,7 +89,8 @@ body {
 }
 
 #btn-donate {
-    padding: 10% 25%;
+    padding: 8% 25%;
+    font-family: Poppins-bold;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
@@ -144,7 +162,7 @@ main {
 
 #btn-back > p {
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #ffffff;
 }
 
@@ -157,12 +175,12 @@ main {
 
 .text_content > h1 {
     font-size: 64px;
-    font-weight: 700;
+    font-family: Poppins-bold;
 }
 
 .text_content > p {
     font-size: 24px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     color: #37383F;
 }
 

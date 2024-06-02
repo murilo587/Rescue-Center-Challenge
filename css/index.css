@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-medium;
+    src: url(../fonts/Inter-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-bold;
+    src: url(../fonts/Inter-Bold.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,12 +42,13 @@ body {
 }
 
 .frame {
-    width: 90%;
+    width: 70%;
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-weight: bold;
+    justify-content: space-between;
+    font-family: Inter-bold;
+    color: #1E1F27;
     font-size: 20px;
 }
 .frame > a {
@@ -67,11 +85,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right:10%;
+    margin-right: 15%;
 }
 
 #btn-donate {
     padding: 7% 24%;
+    font-family: Poppins-bold;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
@@ -120,17 +139,23 @@ body {
 }
 
 .left_content_start > h1 {
+    font-family: Poppins-bold;
+    color: #1E1F27;
     font-size: 64px;
-    margin-top: 10%;
+    margin-top: 1%;
+    margin-bottom: 0%;
 }
 
 .left_content_start > h3 {
+    font-family: Poppins-bold;
+    color: #1E1F27;
     font-size: 32px;
-    margin-top: 8%;
+    margin-top: 4%;
     margin-bottom: 0%;
 }
 
 .left_content_start > p {
+    font-family: Inter-medium;
     margin-top: 8%;
     font-size: 24px;
     color: #37383F;
@@ -200,6 +225,7 @@ body {
 #btn-donate-main {
     width: 35%;
     height: 85%;
+    font-family: Poppins-bold;
     font-size: 1.2rem;
     font-weight: bold;
     background-color:#FF3D9A;
@@ -220,6 +246,7 @@ body {
 #btn-adopt {
     width: 40%;
     height: 85%;
+    font-family: Poppins-bold;
     font-size: 1.2rem;
     color: #1E1F27;
     border: 2px solid #1E1F27;
@@ -249,6 +276,7 @@ body {
 .main_content_stats > h2 {
     color: #FFFFFF;
     font-size: 56px;
+    font-family: Poppins-bold;
     text-align: center;
     margin-top: 4%;
 }
@@ -256,6 +284,7 @@ body {
 .main_content_stats {
     width: 90%;
     height: 90%;
+    font-family: Poppins-bold;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -432,6 +461,7 @@ body {
     font-size: 56px;
     color: #FFFFFF;
     text-align: center;
+    font-family: Poppins-bold;  
 }
 
 .cards_mobile {
@@ -477,6 +507,7 @@ body {
 
 .text_block_shelter > p {
     font-size: 20px;
+    font-family: Inter-medium;
     color: #757575;
     margin-bottom: 20%;
     margin-top: 5%;
@@ -493,7 +524,7 @@ body {
 
 .top_text_img > h {
     font-size: 32px;
-    font-weight: bold;
+    font-family: Poppins-bold;
     color: #FFFFFF;
 }
 
@@ -535,8 +566,9 @@ body {
     height: 10%;
     display: flex;
     justify-content: center;
-    font-size: 2.4rem;
-    color: #000000;
+    font-size: 56px;
+    font-family: Poppins-bold;
+    color: #1E1F27;
 }
 
 .top_content_adopt_info > h2 {
@@ -579,21 +611,26 @@ body {
     background-color: #1E1F27;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    text-wrap: nowrap;
     align-items: center;
 }
 
 
 .right_content_adopt_info > h3 {
-    font-size: 2.3rem;
-    margin-left: 3%
+    font-size: 32px;
+    font-family: Poppins-bold;
+    color: #1E1F27;
+    margin-left: 3%;
+    margin-bottom: 2%;
 }
 
 #li_adopt_info {
-    font-size: 1.3rem;
+    font-size: 24px;
+    font-family: Inter-medium;
     margin: 5% 2%;
     margin-left: 0%;
     color: #37383F;
@@ -626,7 +663,8 @@ body {
 }
 
 .top_content_difference_block > h2 {
-    font-size: 3rem;
+    font-size: 56px;
+    font-family: Poppins-bold;
     color: #FFFFFF;
     text-align: center;
 }
@@ -653,7 +691,7 @@ body {
     border: 2px solid #FFFFFF;
     border-radius: 20px;
     width: 16%;
-    height: 70%;
+    height: 75%;
     margin: 2%;
 }
 
@@ -667,7 +705,8 @@ body {
 }
 
 .text_block_card > h1 {
-    font-size: 1.6rem;
+    font-size: 24px;
+    font-family: Poppins-bold;
     color: #ffffff;
     margin-bottom: 20%;
     text-align: center;
@@ -675,7 +714,8 @@ body {
 }
 
 .text_block_card > p {
-    font-size: 1.3rem;
+    font-size: 20px;
+    font-family: Inter-medium;
     color: #adadad;
     margin-bottom: 20%;
     text-align: center;
@@ -692,7 +732,9 @@ body {
     justify-content: center;
     text-decoration: none;
     color: #000000;
-    font-weight: bold;
+    text-wrap: nowrap;
+    font-family: Poppins-bold;
+    font-size: 17px;
     justify-self: center;
 }
 
@@ -704,7 +746,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-family: Poppins-bold;
+    font-size: 17px;
     justify-self: center;
 }
 
@@ -716,7 +759,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-family: Poppins-bold;
+    font-size: 17px;
     justify-self: center;
 }
 
@@ -728,7 +772,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
+    font-family: Poppins-bold;
+    font-size: 17px;
     justify-self: center;
 }
 
@@ -772,15 +817,15 @@ body {
 
 .center_content_adopt_block > h1 {
     font-size: 56px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     margin-top: 12%;
     color: #FFFFFF;
 }
 
 .center_content_adopt_block > p {
     font-size: 32px;
-    font-weight: 700;
     margin-top: 5%;
+    font-family: Poppins-bold;
     color: #FFFFFF;
 }
 
@@ -794,7 +839,7 @@ body {
     border-radius: 32px;
     background-color: #F8DB46;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     text-decoration: none;
     color: #000000;
     display: flex;
@@ -810,7 +855,7 @@ body {
     border: 2px solid #ffffff;
     color: #ffffff;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -867,13 +912,16 @@ body {
 
 .top_content_subscription_block > h1 {
     font-size: 56px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #FFFFFF;
+    text-align: center;
+    text-wrap: nowrap;
+    margin-bottom: 5%;
 }
 
 .top_content_subscription_block > p {
     font-size: 20px;
-    font-weight: 500;
+    font-family: Inter-medium   ;
     color: #FFFFFF;
     text-align: center;
 }
@@ -914,7 +962,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     margin-left: 2%;
 }
 
@@ -955,14 +1003,14 @@ footer {
 
 .logo_name > h1 {
     font-size: 36px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     line-height: 36px;
     color: #1E1F27;
 }
 
 .logo_name > p {
     font-size: 20px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #1E1F27;
 }
 
@@ -985,7 +1033,7 @@ footer {
 .links > p {
     margin: 4% 0%;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Inter-bold;
     color: #1E1F27;
 }
 .links_2 {
@@ -999,7 +1047,7 @@ footer {
 .links_2 > p {
     margin: 4% 0%;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Inter-bold;
     color: #1E1F27;
 }
 
@@ -1035,7 +1083,7 @@ footer {
 .right_content_contact > p {
     margin: 8% 0%;
     font-size: 20px;
-    font-weight: 700;
+    font-family: Inter-bold;
     color: #1E1F27;
 }
 
@@ -1060,7 +1108,7 @@ footer {
 
 .bottom_content_footer > p {
     font-size: 32px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #1E1F27;
     align-self: center;
 }
@@ -1114,7 +1162,7 @@ footer {
 
 .top_content_modal_adopt > h1 {
     font-size: 48px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #1E1F27;
     margin: 0;
     margin-bottom: 2%;
@@ -1122,7 +1170,7 @@ footer {
 
 .top_content_modal_adopt > p {
     font-size: 18px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     color: #1E1F27;
     margin: 0;
 }
@@ -1135,13 +1183,13 @@ footer {
 
 .center_content_modal_adopt > p {
     font-size: 12px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #FF3D9A;
 }
 
 .center_content_modal_adopt > input {
     font-size: 16px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     width: 95%;
     height: 15%;
     border-radius: 8px;
@@ -1150,7 +1198,7 @@ footer {
 
 #birth_date_day {
     font-size: 16px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     width: 25%;
     height: 18%;
     border-radius: 8px;
@@ -1160,7 +1208,7 @@ footer {
 
 #birth_date_month {
     font-size: 16px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     width: 25%;
     height: 18%;
     border-radius: 8px;
@@ -1170,7 +1218,7 @@ footer {
 
 #birth_date_year {
     font-size: 16px;
-    font-weight: 500;
+    font-family: Poppins-medium;
     width: 25%;
     height: 18%;
     border-radius: 8px;
@@ -1228,7 +1276,7 @@ footer {
 
 #btn-adopt-modal > p {
     font-size: 18px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #ffffff;
 }
 
@@ -1252,7 +1300,7 @@ footer {
 
 #btn-cancel-modal > p {
     font-size: 18px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     color: #ffffff;
 }
 
@@ -1304,7 +1352,7 @@ footer {
 
 .top_content_modal_donate > h1 {
     font-size: 48px;
-    font-weight: 700;
+    font-family: Poppins-bold;
     text-align: center;
     color: #1E1F27;
     margin: 0;
@@ -1313,7 +1361,7 @@ footer {
 
 .top_content_modal_donate > p {
     font-size: 18px;
-    font-weight: 500;
+    font-family: Poppins-medium;    
     margin: 0;
 }
 
