@@ -1,4 +1,3 @@
-# Rescue-Center-Challenge
 <h1>Rescue Center Challenge</h1>
 
 <p>Welcome to the rescue center project chellenge! this is a web page project for a
