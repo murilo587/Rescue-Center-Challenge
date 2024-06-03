@@ -22,4 +22,4 @@
 
 <p>1. You can clone the project, using the command git clone.</p>
 <p>2. Navigate to the project directory, using this command: cd Rescue-Center-Challenge.</p>
-<p>3. Open the project in the browser using the live server extension.</p>
+<p>3. Open the project in the browser using the Live Server extension.</p>
