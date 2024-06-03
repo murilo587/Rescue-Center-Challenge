@@ -89,7 +89,7 @@ body {
 }
 
 #btn-donate {
-    padding: 7% 24%;
+    padding: 5% 24%;
     font-family: Poppins-bold;
     background-color: #FF3D9A;
     color: #FFFFFF;
@@ -118,7 +118,7 @@ body {
 
 #img-dog-cat {
     width: 85%;
-    height: 90%;
+    height: 95%;
 }
 
 .divider {
@@ -224,7 +224,7 @@ body {
 
 #btn-donate-main {
     width: 35%;
-    height: 85%;
+    height: 100%;
     font-family: Poppins-bold;
     font-size: 1.2rem;
     font-weight: bold;
@@ -244,8 +244,8 @@ body {
 }
 
 #btn-adopt {
-    width: 40%;
-    height: 85%;
+    width: 45%;
+    height: 100%;
     font-family: Poppins-bold;
     font-size: 1.2rem;
     color: #1E1F27;
@@ -256,7 +256,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    margin-right: 19%;
+    margin-right: 13%;
 }
 
 #btn-adopt> img {
@@ -267,7 +267,7 @@ body {
 .stats_block {
     background-color: #1E1F27;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -390,29 +390,20 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90%;
-    margin-top: 5%
-}
-.photo {
-    width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 8.1%;
+    margin-top: 50px;
 }
-
 .show {
     overflow: hidden;
     display: flex;
     justify-content: start;
-    width: 1040px;
+    width: 1020px;
     height: 90%;
 
 }
 .slider {
     /* opacity: 0; */
-    width: 20sh;
+    width: 250px;
     height: 100%;
     transition: opacity 0.2s;
     margin-top: 0%;
@@ -630,7 +621,7 @@ body {
 }
 
 #li_adopt_info {
-    font-size: 24px;
+    font-size: 20px;
     font-family: Inter-medium;
     margin: 5% 2%;
     margin-left: 0%;
@@ -692,7 +683,7 @@ body {
     border: 2px solid #FFFFFF;
     border-radius: 20px;
     width: 16%;
-    height: 75%;
+    height: 80%;
     margin: 2%;
 }
 
@@ -718,7 +709,7 @@ body {
     font-size: 20px;
     font-family: Inter-medium;
     color: #adadad;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
     text-align: center;
     margin-top: 5%;
 }
@@ -1166,11 +1157,13 @@ footer {
     font-family: Poppins-bold;
     color: #1E1F27;
     margin: 0;
+    text-align: center;
+    text-wrap: nowrap;
     margin-bottom: 2%;
 }
 
 .top_content_modal_adopt > p {
-    font-size: 18px;
+    font-size: 1px;
     font-family: Poppins-medium;
     color: #1E1F27;
     margin: 0;

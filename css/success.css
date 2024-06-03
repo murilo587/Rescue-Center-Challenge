@@ -43,12 +43,13 @@ body {
 }
 
 .frame {
-    width: 90%;
+    width: 70%;
     height: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: Inter-bold;
+    color: #1E1F27;
     font-size: 20px;
 }
 .frame > a {
@@ -85,15 +86,17 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 #btn-donate {
-    padding: 8% 25%;
+    padding: 5% 24%;
     font-family: Poppins-bold;
     background-color: #FF3D9A;
     color: #FFFFFF;
     display: flex;
+    text-decoration: none;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
@@ -115,8 +118,13 @@ body {
     margin-right: 10%;
 }
 
+#img-dog-cat {
+    width: 85%;
+    height: 95%;
+}
+
 .divider {
-    width: 73%;
+    width: 70%;
     height: 0.3vh;
     justify-content: center;
     background-color: #1E1F27;
