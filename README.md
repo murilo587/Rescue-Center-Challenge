@@ -12,7 +12,7 @@
 
 <h2>About the Project</h2>
 
-<p>This is a web page of an fictional animal adoption and care center, made with HTML, CSS and JavaScript</p>
+<p>This is a web page of an fictional animal adoption and care center, made with HTML, CSS and JavaScript.</p>
 
 <h2>Functionalities</h2>
 
@@ -28,4 +28,4 @@
 <h2>Use</h2>
 
 <p>For a better experience, it is recommended to use the computer screen scale at 100%, you can change the scale of you computer screen
- in your computer settings</p>
+ in your computer settings.</p>
